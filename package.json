@@ -1,0 +1,25 @@
+{
+  "name": "Flashcards-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "dependencies": {
+    "inquirer-list-input": "^0.1.2",
+    "inquirer": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpena001/Flashcards-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpena001/Flashcards-Generator/issues"
+  },
+  "homepage": "https://github.com/dpena001/Flashcards-Generator#readme"
+}
