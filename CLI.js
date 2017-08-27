@@ -34,15 +34,16 @@ function ClozeFlash(){
       message: 'Input to String to Cloze:',
     }]).then(function (answers) {
          var flash = new Cloze(answers.text,answers.clozed);
-          if (flash.partial()){  
-             console.log(flash.cloze);
-             console.log(flash.partial());
-             console.log(flash.fullText);
-             askrequest();
+         //console.log(flash);
+         if (Object.getOwnPropertyNames(flash).length === 0){  
+              askrequest();
+            
           }   
           else{
-              console.log(flash.cloze+" doesn't appear in "+flash.fullText);
-              askrequest();
+            console.log(flash.cloze);
+            console.log(flash.partial);
+            console.log(flash.fullText);
+            askrequest();
           } 
     });
  }
